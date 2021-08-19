@@ -23,3 +23,5 @@ jobs:
         lein: latest
     - name: Run tests
       run: lein test
+    - name: Build uberjar
+      run: lein uberjar
