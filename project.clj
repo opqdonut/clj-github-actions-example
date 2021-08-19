@@ -6,4 +6,7 @@
             :distribution :repo
             :comments "same as Clojure"}
   :dependencies [[org.clojure/clojure "1.10.1"]]
-  :repl-options {:init-ns clj-github-actions-example.core})
+  :repl-options {:init-ns clj-github-actions-example.core}
+  :deploy-repositories [["clojars" {:url "https://repo.clojars.org/"
+                                    :username :env/CLOJARS_USER
+                                    :password :env/CLOJARS_DEPLOY_TOKEN}]])
