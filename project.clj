@@ -1,4 +1,4 @@
-(defproject clj-github-actions-example "0.1.0-SNAPSHOT"
+(defproject com.github.opqdonut/clj-github-actions-example "0.1.0-SNAPSHOT"
   :description "TODO"
   :url "http://github.com/opqdonut/clj-github-actions-example"
   :license {:name "Eclipse Public License"
