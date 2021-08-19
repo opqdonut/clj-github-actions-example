@@ -14,6 +14,13 @@ See here:
 Future ideas:
 - Reuse the uberjar built by the test workflow in the deploy workflow
 - Automate commiting and tagging a release
+- Sign releases
+
+## A Word on Authentication
+
+- A Clojars deploy token is saved as a Github repository secret.
+- Leiningen is [configured](https://github.com/opqdonut/clj-github-actions-example/blob/master/project.clj#L13) to read the deploy token from the environment variable `CLOJARS_DEPLOY_TOKEN`.
+- The Github Actions Release workflow exposes the secret as this environment variable.
 
 ## License
 
