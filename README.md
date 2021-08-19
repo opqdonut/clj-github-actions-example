@@ -20,7 +20,7 @@ Future ideas:
 
 - A Clojars deploy token is saved as a Github repository secret.
 - Leiningen is [configured](https://github.com/opqdonut/clj-github-actions-example/blob/master/project.clj#L13) to read the deploy token from the environment variable `CLOJARS_DEPLOY_TOKEN`.
-- The Github Actions Release workflow exposes the secret as this environment variable.
+- The Github Actions Release workflow [exposes the secret](https://github.com/opqdonut/clj-github-actions-example/blob/master/.github/workflows/release.yml#L32) as this environment variable.
 
 ## License
 
