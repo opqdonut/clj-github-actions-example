@@ -21,6 +21,11 @@ jobs:
       uses: DeLaGuardo/setup-clojure@master
       with:
         lein: latest
+    - name: Cache dependencies
+      uses: actions/cache@v2
+      with:
+        path: ~/.m2/repository
+        key: "m2-${{ hashFiles('project.clj') }}"
     - name: Run tests
       run: lein test
     - name: Build uberjar
