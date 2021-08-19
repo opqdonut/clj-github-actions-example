@@ -1,4 +1,8 @@
-# clj-github-actions-example [![Clojars Project](https://img.shields.io/clojars/v/com.github.opqdonut/clj-github-actions-example.svg)](https://clojars.org/com.github.opqdonut/clj-github-actions-example)
+# clj-github-actions-example
+
+[![Clojars Project](https://img.shields.io/clojars/v/com.github.opqdonut/clj-github-actions-example.svg)](https://clojars.org/com.github.opqdonut/clj-github-actions-example)
+![Test status](https://github.com/opqdonut/clj-github-actions-example/actions/workflows/clojure.yml/badge.svg)
+![Release status](https://github.com/opqdonut/clj-github-actions-example/actions/workflows/release.yml/badge.svg)
 
 An example of testing & releasing a Clojure library using Github Actions
 
