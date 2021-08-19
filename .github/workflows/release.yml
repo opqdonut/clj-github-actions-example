@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - release
+  release:
+    types:
+      - published # reacts to releases and prereleases, but not their drafts
 
 jobs:
   build-and-release:
