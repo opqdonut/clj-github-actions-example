@@ -16,7 +16,7 @@ See here:
     - [Example Github release](https://github.com/opqdonut/clj-github-actions-example/releases/tag/release%2F0.1.1)
 
 Future ideas:
-- Reuse the uberjar built by the test workflow in the deploy workflow
+- Reuse the jar built by the test workflow in the deploy workflow
 - Automate commiting and tagging a release
 - Sign releases
 
