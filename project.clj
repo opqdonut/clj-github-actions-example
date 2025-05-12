@@ -1,4 +1,4 @@
-(defproject com.github.opqdonut/clj-github-actions-example "0.1.2"
+(defproject com.github.opqdonut/clj-github-actions-example "0.1.3"
   :description "An example of testing & deploying a Clojure library using Github Actions. See Github repo."
   :url "http://github.com/opqdonut/clj-github-actions-example"
   :license {:name "Eclipse Public License"
